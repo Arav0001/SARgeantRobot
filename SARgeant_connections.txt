@@ -1,0 +1,14 @@
+Connections for circuit:
+
+1.  MotorShield   [sockets]                        -> Arduino Uno   [pins]
+2.  IR            [+,GND,data]                     -> MotorShield   [5v,GND,A0]
+3.  Ultra         [Vcc,Trig,Echo,GND]              -> MotorShield   [5v,A3,A2,GND]
+4.  Thermal       [Vin,GND,SCL,SDA]                -> MotorShield   [5v,GND,SCL,SDA]
+5.  Servo         [WIRE] thru 300μF capacitor      -> MotorShield   [WIRE]
+6.  LED           [+,GND]                          -> MotorShield   [digital_4,GND]
+7.  Motor_1       [+,GND] thru 100nF capacitor     -> MotorShield   [M1_pos,M1_neg]
+8.  Motor_2       [+,GND] thru 100nF capacitor     -> MotorShield   [M2_pos,M2_neg]
+9.  Motor_3       [+,GND] thru 100nF capacitor     -> MotorShield   [M3_pos,M3_neg]
+10. Motor_4       [+,GND] thru 100nF capacitor     -> MotorShield   [M4_pos,M4_neg]
+11. Battery       [+,GND] thru SPDT switch         -> MotorShield   [power_pos, power_neg]
+12. Switch        [+,data,GND]                     -> MotorShield   [3v,digital_2,GND]
